@@ -45,7 +45,7 @@ function Login() {
         style={{
           height: '20%', clear: 'both', paddingTop: 20, paddingBottom: 20, textAlign: 'center',
         }}
-        id="m2" >
+        id="m1" >
         <p>LOGIN</p>
       </div>
 			<div className="mt-5">
@@ -74,7 +74,7 @@ function Login() {
 							
 							<button 
 								type="submit" 
-								className="btn btn-success"
+								className="btn btn-login"
 								onClick={submitLogin}>
                 Log In
 								</button>
@@ -86,7 +86,7 @@ function Login() {
         <Row>
           <Col size='md-12'>
              Don't Have An Account? 
-            <p><a href= "/signup" className="clicktosignup">Click here to sign-up.</a></p> 
+            <div><a href= "/signup" className="clicktosignup"><b>Click here to sign-up.</b></a></div> 
           </Col>
         </Row>
       </Container>

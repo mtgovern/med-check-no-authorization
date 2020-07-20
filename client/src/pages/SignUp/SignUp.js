@@ -41,7 +41,7 @@ function SignUp() {
                 // onChange={onInputChange}
                 type='text'
               />
-              <FormBtn>
+              <FormBtn className="btn btn-create">
                 Create Account
               </FormBtn>
             </form>

@@ -80,7 +80,7 @@ border: none;
 .logout {
 	background-color: black;
 	font-weight: bold;
-	font-size: 225%;
+	font-size: 125%;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: white;
 	width: 100%;
@@ -195,6 +195,20 @@ border: none;
   height: 20%;
 }
 
+.btn-login {
+  background-color: #AAC423;
+  font-weight: bold;
+  margin-bottom: .3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-create {
+  background-color: #5492CD;
+  font-weight: bold;
+  margin-bottom: .3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .btn-doc {
   background-color: #5492CD;
   font-weight: bold;
@@ -242,7 +256,7 @@ border: none;
 }
 
 .addMedBtn {
-  background-color: #AAC423;
+  background-color: darkgray;
   color: white;
   height: 10vh;
   width: 85%;
@@ -254,7 +268,7 @@ border: none;
 }
 
 .addDocBtn {
-  background-color:#5492CD;
+  background-color: darkgray;
   color: white;
   height: 10vh;
   width: 85%;
@@ -266,7 +280,7 @@ border: none;
 }
 
 .addApptBtn {
-  background-color: #DE3A31;
+  background-color:darkgray;
   color: white;
   height: 10vh;
   width: 85%;
@@ -318,7 +332,8 @@ border: none;
 
 
 .clicktosignup {
-	font-size: 20px;
+  font-size: 18px;
+  color: #AAC423;
 }
 
 form {
